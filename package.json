@@ -1,0 +1,31 @@
+{
+  "name": "mapconcat",
+  "version": "1.0.0",
+  "description": "Returns the result of applying concat to the result of applying a function to arrays. Thus the function should return an array.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
+    "test": "mocha -R nyan test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landau/mapconcat.git"
+  },
+  "keywords": [
+    "functional",
+    "concat",
+    "map",
+    "array"
+  ],
+  "author": "Trevor Landau <landautrevor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landau/mapconcat/issues"
+  },
+  "homepage": "https://github.com/landau/mapconcat",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "jshint-stylish": "^0.1.5",
+    "jshint": "^2.4.4"
+  }
+}
