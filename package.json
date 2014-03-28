@@ -1,7 +1,7 @@
 {
   "name": "mapconcat",
-  "version": "1.0.0",
-  "description": "Returns the result of applying concat to the result of applying a function to arrays. Thus the function should return an array.",
+  "version": "1.0.1",
+  "description": "Returns the result of applying concat to the result of applying a function to values.",
   "main": "index.js",
   "scripts": {
     "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",

@@ -3,7 +3,7 @@
 mapconcat
 =========
 
-Returns the result of applying concat to the result of applying a function to arrays.  Thus the function should return an array.
+Returns the result of applying concat to the result of applying a function to values.
 
 ## Install
 
@@ -13,7 +13,7 @@ Returns the result of applying concat to the result of applying a function to ar
 
 ```js
 var assert = require('assert');
-var mapconcat = require('./');
+var mapconcat = require('mapconcat');
 
 function reverse(arr) {
   return arr.reduce(function(acc, val, idx) {

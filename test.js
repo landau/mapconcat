@@ -16,4 +16,9 @@ describe('mapconcat', function() {
     var arr = mapconcat([a, b], reverse);
     assert.deepEqual(arr, [1, 2, 3, 4, 5, 6]);
   });
+
+  it('should concat many values', function() {
+    var arr = mapconcat([1, 2], function (v) { return v; });
+    assert.deepEqual(arr, [1, 2]);
+  });
 });
